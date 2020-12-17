@@ -26,15 +26,15 @@ This will replace the error with "0" so subsequent analyses can reference the co
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
-1. The summer months (May-August) have relatively more Theater category KS project launches than others.
-2. May is the most favorable month of the year to launch a Theater KS campaign. It is the month with the most total successful launched projects, but also historically has best ratio of succeeded:failed theater campaigns launched.
+	1. The summer months (May-August) have relatively more Theater category KS project launches than others.
+	2. May is the most favorable month of the year to launch a Theater KS campaign. It is the month with the most total successful launched projects, but also historically has best ratio of succeeded:failed theater campaigns launched.
 
 - What can you conclude about the Outcomes based on Goals?
-1. Theater campaigns that set a goal of over $15000 historically succeed more than those over $15000. While the graph suggests that there might be a potential "sweet spot" for a large production in the $35000-$45000 range, there are only 6 theater projects in our dataset with goals in that range, which is insufficient to model a prediction. Although historically sub-$15000 theater campaigns tend to succeed more than they fail, the difference is more favorable under $5,000.
+	- Theater campaigns that set a goal of over $15000 historically succeed more than those over $15000. While the graph suggests that there might be a potential "sweet spot" for a large production in the $35000-$45000 range, there are only 6 theater projects in our dataset with goals in that range, which is insufficient to model a prediction. Although historically sub-$15000 theater campaigns tend to succeed more than they fail, the difference is more favorable under $5,000.
 
 - What are some limitations of this dataset?
-This analysis lacks more granular data on how time-to-deadline impacts fundraising. Some of the campaigns in the dataset barely met their goal, and had a very low Backers count - suggesting that at the last moment, someone may have donated a large sum just to make sure the goal was reached before the deadline. Unless the client specified that this was part of her fundraising strategy, more accurate recommendations could be made by filtering those campaigns out.
-This data would also be more helpful if it had more details about each campaign. Particularly for the Theater side of this analysis, it seems like the summer months are best for fundraising plays. This surge may be due to an increase in outdoors productions being marketed to backers who want to enjoy the warm weather - if our client was looking to fund an indoor production, a May launch recommendation could be less defensible.
+	- This analysis lacks more granular data on how time-to-deadline impacts fundraising. Some of the campaigns in the dataset barely met their goal, and had a very low Backers count - suggesting that at the last moment, someone may have donated a large sum just to make sure the goal was reached before the deadline. Unless the client specified that this was part of her fundraising strategy, more accurate recommendations could be made by filtering those campaigns out.
+	- This data would also be more helpful if it had more details about each campaign. Particularly for the Theater side of this analysis, it seems like the summer months are best for fundraising plays. This surge may be due to an increase in outdoors productions being marketed to backers who want to enjoy the warm weather - if our client was looking to fund an indoor production, a May launch recommendation could be less defensible.
 
 - What are some other possible tables and/or graphs that we could create?
-Future analyses could focus on total length of campaign vs. average backer pledge (using end date included in data). From a marketing perspective, it might also be helpful to drill into the length of the "blurb" and its impact on success or amount raised.
+	- Future analyses could focus on total length of campaign vs. average backer pledge (using end date included in data). From a marketing perspective, it might also be helpful to drill into the length of the "blurb" and its impact on success or amount raised.
