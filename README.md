@@ -12,9 +12,9 @@ If you run into a Unix date that looks something like "1402949760" while working
 =(((<UNIX-DATED CELL LOCATION>/60)/60)/24)+DATE(1970,1,1)
 ```
 ### Analysis of Outcomes Based on Launch Date
-[Outcomes Based on Launch Date Graph](resources/Theater_Outcomes_vs_Launch.png)
+[Outcomes Based on Launch Date Graph](./Resources/Theater_Outcomes_vs_Launch.png)
 ### Analysis of Outcomes Based on Goals
-[Outcomes Based on Goals](resources/Outcomes_vs_Goals.png)
+[Outcomes Based on Goals](./Resources/Outcomes_vs_Goals.png)
 ### Challenges and Difficulties Encountered
 When developing a new column for Average Pledge, some records will create #DIV/0 error, as some projects in the dataset have not recieved any pledges.
 To handle these errors, use IFERROR(), as below:
